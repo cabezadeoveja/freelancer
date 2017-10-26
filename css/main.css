@@ -1,3 +1,375 @@
 /*
  * Estilos de tu proyecto
  */
+
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*INICIO MENU*/
+
+header{
+	position: fixed;
+	background: #2c3e50;
+	width: 100%;
+	top: 0;
+}
+
+.menu{
+  padding: 26px 0px;
+  overflow: auto;
+  margin-left: 78px;
+  margin-right: 98px;
+  line-height: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+.logotipo{
+	display: inline-block;
+	color: white;
+	font-size: 32px
+}
+
+a{
+	color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+a:hover {
+  color: #18bc9c;
+}
+
+.secciones{
+	font-size: 16px;
+	float: right
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*FIN MENU*/
+/*EMPIEZA HOJA1*/
+
+.container{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px
+  }
+
+#part1{
+  box-sizing: border-box;
+  background-color: #18bc9c;
+  margin-top: 108px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.tex1{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 80px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.foto1{
+	display: block;
+    margin: 0 auto 20px;
+}
+
+.iconstar div{
+	display: inline-block;
+	background-color: white;
+	width: 100px;
+	height: 5px;
+	vertical-align: middle;
+}
+
+.iconstar{
+	color: white;
+	font-size: 35px;
+	margin-top: -15px;
+}
+
+.parrafo{
+	font-size: 28px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	margin-top: -10px;
+}
+
+/*TERMINA HOJA1*/
+/*EMPIEZA HOJA2*/
+
+#part2{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.tex2{
+	color: #2c3e50;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.iconstarblue div{
+	display: inline-block;
+	background-color: #2c3e50;
+	width: 100px;
+	height: 5px;
+	vertical-align: middle;
+}
+
+.iconstarblue{
+	color: #2c3e50;
+	font-size: 35px;
+	margin-top: -15px;
+}
+
+.imagen{
+	width: 351px;
+	margin: 20px 15px 15px 15px;
+}
+
+/*TERMINA HOJA2*/
+/*EMPIEZA HOJA3*/
+
+#part3{
+  box-sizing: border-box;
+  background-color: #18bc9c;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.tex3{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+
+
+.columnas{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 24pt;
+	overflow: hidden;
+	text-align: left;
+	display: inline-block;
+}
+
+.columnaizquiera{
+	float: left;
+	padding: 5px 20px;
+	width: 350px;
+}
+
+.columnaderecha{
+	float: left;
+	padding: 5px 20px;
+	width: 350px;
+}
+
+
+.boton1{
+    box-sizing: border-box;
+	display: inline-block;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	padding: 0px 16px;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 10px;
+	margin-bottom: 30px;
+}
+
+/*TERMINA HOJA3*/
+/*EMPIEZA HOJA4*/
+
+#part4{
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.tex4{
+	color: #2c3e50;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.formulario{
+	box-sizing: border-box;
+	padding: 70px;
+	text-align: left;
+	margin-left: 200px;
+}
+
+input{
+	margin-bottom: 70px;
+	width: 680px;
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: #BDBDBD;
+	border: 0;
+	border-bottom: 1px solid #BDBDBD;
+}
+
+.boton2{
+    box-sizing: border-box;
+	display: inline-block;
+	background-color: #18bc9c; 
+	color: white;
+	border-radius: 5px;
+	padding: 0px 16px;
+	margin-top: 100px;
+	
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 10px;
+}
+
+/*TERMINA HOJA4*/
+/*EMPIEZA HOJA5*/
+
+#part5{
+  box-sizing: border-box;
+  background-color: #2c3e50;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.tex5{
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.columnas2{
+	color: white;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 24pt;
+	padding: 10px;
+	overflow: hidden;
+	text-align: center;
+	display: inline-block;
+}
+
+.location{
+	box-sizing: border-box;
+	float: left;
+	padding: 25px;
+	width: 308px;
+	margin-left: 20px;
+}
+
+.redessociales{
+	box-sizing: border-box;
+	float: left;
+	padding: 25px;
+	width: 400px;
+	margin-left: 60px;
+}
+
+.a2{
+	margin: 2px;
+}
+
+.fa-facebook{
+	display: inline-block;
+	border: 2px solid #ffffff;
+	border-radius: 30px;
+    font-size: 22px;
+    width: 50px;
+    padding: 15px 0px;
+    margin-top: 10px;
+}
+
+.fa-google-plus{
+	display: inline-block;
+ 	border: 2px solid #ffffff;
+ 	border-radius: 30px;
+    font-size: 22px;
+    width: 50px;
+    padding: 15px 0px;
+}
+
+.fa-twitter{
+	display: inline-block;
+ 	border: 2px solid #ffffff;
+ 	border-radius: 30px;
+    font-size: 22px;
+    width: 50px;
+    padding: 15px 0px;
+}
+
+
+.fa-linkedin{
+	display: inline-block;
+ 	border: 2px solid #ffffff;
+ 	border-radius: 30px;
+    font-size: 22px;
+    width: 50px;
+    padding: 15px 0px;
+}
+
+
+.fa-dribbble{
+	display: inline-block;
+ 	border: 2px solid #ffffff;
+ 	border-radius: 30px;
+    font-size: 22px;
+    width: 50px;
+    padding: 15px 0px;
+}
+
+.freelancer{
+	box-sizing: border-box;
+	float: left;
+	padding: 25px;
+	width: 430px;
+	margin-right: -30px;
+}
+/*TERMINA HOJA5*/
+
+/*COPYRIGHT*/
+.a3{
+	margin: 8px;
+	color: #18bc9c;
+}
+
+.copyright{
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
